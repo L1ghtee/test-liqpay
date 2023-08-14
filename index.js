@@ -69,7 +69,7 @@ document.querySelector("#npEssential").addEventListener("click", function () {
     amount = "1279";
     order_id = "Essential";
   });
-  document.querySelector("#1599").addEventListener("click", function () {
+  document.querySelector("#up").addEventListener("click", function () {
     amount = "1279";
     order_id = "Essential";
   });
