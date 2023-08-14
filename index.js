@@ -61,29 +61,104 @@ document.querySelector("#payEssential").addEventListener("click", function () {
   amount = "1279";
   order_id = "Essential";
 });
-document
-  .querySelector("#payProfessional")
-  .addEventListener("click", function () {
+document.querySelector("#buyEssential").addEventListener("click", function () {
+  amount = "1279";
+  order_id = "Essential";
+});
+document.querySelector("#npEssential").addEventListener("click", function () {
+    amount = "1279";
+    order_id = "Essential";
+  });
+  document.querySelector("#1599").addEventListener("click", function () {
+    amount = "1279";
+    order_id = "Essential";
+  });
+document.querySelector("#oldPEssential").addEventListener("click", function () {
+    amount = "1599";
+    order_id = "Essential (old Price)";
+  });
+
+
+
+document.querySelector("#payProfessional").addEventListener("click", function () {
     amount = "1599";
     order_id = "Professional";
   });
+document.querySelector("#buyProfessional").addEventListener("click", function () {
+    amount = "1599";
+    order_id = "Professional";
+  });
+  document.querySelector("#npProffessional").addEventListener("click", function () {
+    amount = "1599";
+    order_id = "Professional";
+  });
+  document.querySelector("#oldPprofessional").addEventListener("click", function () {
+    amount = "1999";
+    order_id = "Professional (old Price)";
+  });
+
+
 document.querySelector("#payBusines").addEventListener("click", function () {
   amount = "3199";
   order_id = "Busines";
 });
-document
-  .querySelector("#payServerEssential")
-  .addEventListener("click", function () {
+document.querySelector("#buyBusiness").addEventListener("click", function () {
+  amount = "3199";
+  order_id = "Busines";
+});
+document.querySelector("#npBusiness").addEventListener("click", function () {
+    amount = "3199";
+    order_id = "Busines";
+  });
+document.querySelector("#oldPBusiness").addEventListener("click", function () {
+    amount = "3999";
+    order_id = "Busines (old Price)";
+  });
+
+
+
+
+
+
+document.querySelector("#payServerEssential").addEventListener("click", function () {
     amount = "3899";
     order_id = "Backup Server essentials";
   });
-document
-  .querySelector("#payBackupServer")
-  .addEventListener("click", function () {
+  document.querySelector("#npServerEssential").addEventListener("click", function () {
+    amount = "3899";
+    order_id = "Backup Server essentials";
+  });
+  document.querySelector("#oldPServerEssential").addEventListener("click", function () {
+    amount = "4799";
+    order_id = "Backup Server essentials (old Price)";
+  });
+
+
+
+document.querySelector("#payBackupServer").addEventListener("click", function () {
     amount = "4499";
     order_id = "Backup Server";
   });
+document.querySelector("#npBackupServer").addEventListener("click", function () {
+    amount = "4499";
+    order_id = "Backup Server";
+  });
+document.querySelector("#oldPBackupServer").addEventListener("click", function () {
+    amount = "5599";
+    order_id = "Backup Server (old Price)";
+  });
+
+
+
 document.querySelector("#payVFlex").addEventListener("click", function () {
   amount = "8999";
   order_id = "Backup VFlex";
 });
+document.querySelector("#npVFlex").addEventListener("click", function () {
+    amount = "8999";
+    order_id = "Backup VFlex";
+  });
+document.querySelector("#oldPVFlex").addEventListener("click", function () {
+    amount = "11199";
+    order_id = "Backup VFlex (old Price)";
+  });
